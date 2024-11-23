@@ -1,0 +1,24 @@
+2024-11-23 19:05:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Invalid value "2" for parameter "parameterIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcPreparedStatement.setParameter(JdbcPreparedStatement.java:1503)
+	at org.h2.jdbc.JdbcPreparedStatement.setString(JdbcPreparedStatement.java:413)
+	at carsharing.dao.DbCarSharingDao.createCompany(DbCarSharingDao.java:25)
+	at carsharing.logic.CarSharingService.createCompany(CarSharingService.java:22)
+	at carsharing.CarSharing.start(CarSharing.java:48)
+	at carsharing.CarSharing.main(CarSharing.java:100)
+2024-11-23 19:06:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Invalid value "2" for parameter "parameterIndex" [90008-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:590)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.getInvalidValueException(DbException.java:280)
+	at org.h2.jdbc.JdbcPreparedStatement.setParameter(JdbcPreparedStatement.java:1503)
+	at org.h2.jdbc.JdbcPreparedStatement.setString(JdbcPreparedStatement.java:413)
+	at carsharing.dao.DbCarSharingDao.createCompany(DbCarSharingDao.java:25)
+	at carsharing.logic.CarSharingService.createCompany(CarSharingService.java:22)
+	at carsharing.CarSharing.start(CarSharing.java:48)
+	at carsharing.CarSharing.main(CarSharing.java:100)
